@@ -2,3 +2,38 @@
     background-color: black;
     color:white
 }
+
+
+.header > nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+ul > li {
+    list-style-type: none;
+}
+
+ul > li:hover {
+    cursor: pointer;
+}
+
+.logo {
+    font-size: 50px;
+}
+
+nav > .btn > button {
+    padding: 15px 20px;
+    border:none;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, purple, orange);
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
