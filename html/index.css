@@ -28,12 +28,82 @@ ul > li:hover {
     font-size: 50px;
 }
 
-nav > .btn > button {
+ .btn > button  {
     padding: 15px 20px;
     border:none;
     border-radius: 25px;
-    background-image: linear-gradient(to right, purple, orange);
+    background-image: linear-gradient(to right, rgb(238, 42, 238), orange);
     font-size: 15px;
     font-weight: bold;
     color: white;
+    transition: all 0.3s ease-in;
+}
+
+.btn > button:hover {
+    scale: 1.05;
+}
+
+
+.alex {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 50vh; 
+}
+    
+.alex img {
+        max-width: 100%;
+        height: auto;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero h1{
+    margin: 0;
+    text-align: center;
+    width: 65%;
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 70px;
+}
+
+.herobtn  button{
+    padding: 20px 30px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.description{
+    background-image: linear-gradient(to right, rgb(238, 42, 238), orange);
+    color: transparent;
+    background-clip: text;
+}
+
+
+
+
+
+.btn2 > button  {
+padding : 15px 20px;
+border-color: white;
+border-radius:25px;
+background-color: black;
+font-size: 15px;
+font-weight: bold;
+color: white;
 }
