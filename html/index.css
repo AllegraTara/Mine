@@ -3,12 +3,24 @@
     color:white
 }
 
-
-.header > nav {
+.header{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
 }
 
+.btn >button{
+    padding: 10px 20px;
+    border:none;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, rgb(238, 42, 238), orange);
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    transition: all 0.3s ease-in;
+}
 ul {
     display: flex;
     justify-content: center;
@@ -28,16 +40,7 @@ ul > li:hover {
     font-size: 50px;
 }
 
- .btn > button  {
-    padding: 15px 20px;
-    border:none;
-    border-radius: 25px;
-    background-image: linear-gradient(to right, rgb(238, 42, 238), orange);
-    font-size: 15px;
-    font-weight: bold;
-    color: white;
-    transition: all 0.3s ease-in;
-}
+ 
 
 .btn > button:hover {
     scale: 1.05;
@@ -94,10 +97,6 @@ ul > li:hover {
     background-clip: text;
 }
 
-
-
-
-
 .btn2 > button  {
 padding : 15px 20px;
 border-color: white;
@@ -107,3 +106,32 @@ font-size: 15px;
 font-weight: bold;
 color: white;
 }
+
+.btncontainer {
+    display: flex;
+    justify-content: space-around;
+    gap: 3;
+    align-items: baseline;
+}
+
+/* about */
+
+.lines{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.line {
+    outline: none;
+    border: none;
+    width: 50%;
+    height: 8px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+}
+.aboutmecontainer{
+    display: flex;
+    
+}
+
+

@@ -1,0 +1,109 @@
+*{
+    background-color: black;
+    color:white 
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-size: 30px;
+    text-decoration: none;
+}
+.btn{
+    
+     padding: 15px 16px;
+     border:none;
+     border-radius: 25px;
+     background-image: linear-gradient(to right, rgb(238, 42, 238), orange);
+     font-size: 15px;
+     font-weight: bold;
+     color: white;
+     transition: all 0.3s ease-in;
+     justify-content: right;
+  
+}
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+ul > li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+ul > li:hover {
+    cursor: pointer;
+}
+.logo {
+    font-size: 50px;
+    font-weight: bold;
+    color: transparent;
+    background-clip: text;
+    background-color: white;
+    justify-content: left;
+}
+/*hero*/
+.alex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; 
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.description{
+    background-image: linear-gradient(to right, rgb(238, 42, 238), orange);
+    color: transparent;
+    background-clip: text;
+}
+.size1{
+    font-size: 75px;
+    font-weight:semibold;
+    gap: 0;
+    list-style-type: none;
+    text-align: center;
+}
+.size2{
+    font-size: 20px;
+    font-weight: lighter;
+    gap: 0;
+    list-style-type: none;
+    text-align: center;
+   
+}
+.btn2   {
+    padding : 15px 20px;
+    border-color: white;
+    border-radius:25px;
+    background-color: black;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    }
+.btncontainer{
+    display: flex;
+    gap: 40px;
+}
+/*about*/
+.aboutmemaincontainer{
+    display :flex
+    
+}
+.aboutmecontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+    gap : 40px;
+}
+.foutaboutme{
+    flex-direction: column;
+}
