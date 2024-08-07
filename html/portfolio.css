@@ -5,11 +5,11 @@
 }
 body {
     font-family: Arial, sans-serif;
-    background-color: #111;
+    background-color:#111;
     color: white;
 }
 header {
-    background-color: black;
+    background-color:#111;
     padding: 20px 0;
 }
 .container {
@@ -70,6 +70,19 @@ main {
 }
 .buttons {
     margin-top: 20px;
+}
+.btn{
+    
+    padding: 15px 16px;
+    border:none;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, rgb(238, 42, 238), orange);
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    transition: all 0.3s ease-in;
+    justify-content: right;
+ 
 }
 .btn-resume {
     background-color: black;
@@ -254,6 +267,7 @@ main {
 .service-box a:hover {
     color: #FFCC00;
 }
+
 .latest-work {
     padding: 50px 0;git
 }
@@ -262,7 +276,10 @@ main {
     font-size: 36px;
     margin-bottom: 30px;
 }
-
+.mylatest-work{
+    display: flex;
+    flex-direction: column;
+}
 .work-gallery {
     display: flex;
     flex-wrap: wrap;
@@ -282,14 +299,15 @@ main {
 }
 
 .show-more {
-    background-color: #333;
-    color: #ffa500;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
+    padding : 15px 20px;
+    border-color: white;
+    border-radius:25px;
+    background-color: black;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+
+    
 }
 
 .show-more:hover {
@@ -307,9 +325,7 @@ h2 {
     color: #ffffff;
 }
 
-p {
-    color: purple, yellow, green;
-}
+
 
 .left, .right {
     flex: 1;
@@ -351,9 +367,9 @@ textarea {
 }
 
 button {
-    padding: 15px;
+    padding: 15px 15px;
     border: none;
-    border-radius: 5px;
+    border-radius: 2px;
     background: linear-gradient(90deg, #ff8c00, #ff0080);
     color: white;
     font-size: 1em;
@@ -364,12 +380,12 @@ button {
     text-align: center;
     margin-top: 50px;
     padding: 20px;
-    background-color: #1a1a1a;
-    color: #c0c0c0;
+    background-color: #111;
+    color: white;
 }
 
 .footer p {
-    margin: 5px 0;
+    margin: 3px 0;
 }
 
 .footer .subscribe {
@@ -397,7 +413,7 @@ button {
 }
 
 .footer hr {
-    border: 1px solid #333;
+    border: 1px solid #111;
     margin: 20px 0;
 }
 
@@ -407,3 +423,18 @@ button {
     font-size: 0.9em;
     color: #c0c0c0;
 }
+.narrow-button {
+    width: 100px; /* or any desired width */
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+    
+.narrow-button:hover {
+    background-color: #0056b3;
+}
+    
+
